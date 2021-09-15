@@ -29,6 +29,9 @@ map to guest = bad user
 socket options = TCP_NODELAY SO_RCVBUF=8192 SO_SNDBUF=8192
 local master = no
 dns proxy = no
+follow symlinks = yes  
+wide links = yes  
+unix extensions = no 
 EOT
 fi
   while getopts ":u:s:h" opt; do
